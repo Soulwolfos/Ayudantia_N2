@@ -2,7 +2,7 @@
 
 Tarea 2 de ayudantia de Paralela 
 
-[Rodrigo Lobos Leal]
+[ Rodrigo Lobos Leal ]
 
 Para ejecutan en consola:
 ```
