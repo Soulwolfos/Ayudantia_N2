@@ -1,7 +1,8 @@
 
 #include <iostream> //cout
 #include <cmath>    //pow, sqrt
-#include <cstdlib>  //rand
+#include <cstdlib>  //rand, srand
+#include <ctime> //time
 
 #include "Funciones.h"
 
@@ -12,6 +13,8 @@ using namespace std;
  * \param arreglo de enteros creado en el main.cpp
  */
 void NumerosRandom(int enteros[100000]){
+    srand(time(NULL));
+    
     for (int i=0 ; i<100000 ; i++){
         enteros[i] = rand() % 10000;
     }
